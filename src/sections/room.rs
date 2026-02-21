@@ -1,4 +1,3 @@
-use maud::{html};
 use crate::section::Section;
 
 pub fn generate()->Section{

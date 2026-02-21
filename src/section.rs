@@ -1,6 +1,4 @@
-use std::fmt;
 use maud::{Render,Markup,html,PreEscaped};
-use crate::sections;
 
 pub struct Section {
     pub title: String,
