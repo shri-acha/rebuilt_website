@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 maud = "0.27.0"
+plotters = "0.3.7"
+time = "0.3.47"
