@@ -1,4 +1,7 @@
 mod index;
+mod section;
+mod sections;
+
 use index::generate_index;
 use std::fs::File;
 use std::io::prelude::*;
