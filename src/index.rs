@@ -1,4 +1,4 @@
-use crate::sections::{byaw,bulb,tracker};
+use crate::sections::{byaw,bulb,tracker,etymology};
 use crate::{footer, header};
 use maud::{PreEscaped, html};
 
@@ -8,8 +8,9 @@ pub fn generate_index() -> String {
         (header::generate())
 
         @for section in &vec![
-        byaw::generate(),
+        etymology::generate(),
         tracker::generate(),
+        byaw::generate(),
         // bulb::generate()
         ]{
             (section)

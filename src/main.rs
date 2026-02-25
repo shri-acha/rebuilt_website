@@ -5,7 +5,6 @@ mod index;
 mod section;
 mod sections;
 mod table;
-mod graph_gen;
 
 use index::generate_index;
 use std::fs::File;

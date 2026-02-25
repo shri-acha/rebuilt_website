@@ -8,7 +8,7 @@ pub struct Section {
 impl Render for Section {
     fn render(&self) -> Markup {
         html! {
-            h2.title { (self.title) }
+            a.title href = ("#".to_owned() + self.title.as_str()) { (self.title) }
             hr;
             p.content { (*&self.content) }
             hr;
